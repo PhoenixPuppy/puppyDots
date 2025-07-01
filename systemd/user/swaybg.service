@@ -1,0 +1,8 @@
+[Unit]
+PartOf=graphical-session.target
+After=graphical-session.target
+Requisite=graphical-session.target
+
+[Service]
+ExecStart=/usr/bin/swaybg -o "eDP-1" -m fill -i "/home/phoenix/Pictures/wallpapers/girlcar.jpg"
+Restart=on-failure
