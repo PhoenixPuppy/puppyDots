@@ -256,7 +256,6 @@ layout {
 
 // enable xwayland-satellite to run on startup
 spawn-at-startup "xwayland-satellite"
-spawn-at-startup "xmousepasteblock"
 
 environment {
     DISPLAY ":0"
